@@ -2,7 +2,7 @@
 int _putchar(char c);
 
 /**
- * print_numbers - function prints the digits (0 through 9).
+ * print_numbers - function prints the digits (0 through 9) followed by a '$'.
  * Return: None.
  */
 void print_numbers(void)
@@ -13,6 +13,7 @@ for (c = 48; c < 58; c++)
 {
 _putchar(c);
 }
+_putchar('$');
 _putchar('\n');
 }
 
